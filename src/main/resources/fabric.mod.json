@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "therandompack",
+	"version": "${version}",
+	"name": "TheRandomPack Mod",
+	"description": "Just Random stuff I play with ;)",
+	"authors": [
+		"Jakob"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/therandompack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.juhumc.therandompack.TheRandomPack"
+		],
+		"fabric-datagen": [
+			"net.juhumc.therandompack.TheRandomPackDataGenerator"
+		],
+		"client": [
+			"net.juhumc.therandompack.TheRandomPackModClient"
+		]
+	},
+	"mixins": [
+		"therandompack.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
