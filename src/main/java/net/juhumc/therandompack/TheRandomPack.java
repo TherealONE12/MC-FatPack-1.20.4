@@ -13,5 +13,7 @@ public class TheRandomPack implements ModInitializer {
 	public void onInitialize() {
 
 		LOGGER.info("Hello Fabric world!");
+
+		LOGGER.warn("Im Launching the Mod" + MOD_ID +"Sucsessfully?");
 	}
 }
