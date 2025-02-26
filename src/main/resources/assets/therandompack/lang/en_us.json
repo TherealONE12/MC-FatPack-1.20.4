@@ -1,3 +1,6 @@
 {
-  "item.therandompack.pink_garnet": "Pink Garnet"
+  "item.therandompack.pink_garnet": "Pink Garnet",
+  "item.therandompack.raw_pink_garnet": "Raw Pink Garnet",
+  "block.therandompack.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.therandompack.pink_garnet_block": "Pink Garnet Block"
 }
