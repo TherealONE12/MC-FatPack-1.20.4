@@ -17,6 +17,9 @@ public class ModBlocks {
     public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
+    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
