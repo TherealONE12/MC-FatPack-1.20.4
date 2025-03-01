@@ -20,6 +20,15 @@ public class ModBlocks {
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
+    public static final Block DEEPSLATE_PINK_GARNET_ORE = registerBlock("deepslate_pink_garnet_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+    public static final Block END_STONE_PINK_GARNET_ORE = registerBlock("end_stone_pink_garnet_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+    public static final Block NETHER_PINK_GARNET_ORE = registerBlock("nether_pink_garnet_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
