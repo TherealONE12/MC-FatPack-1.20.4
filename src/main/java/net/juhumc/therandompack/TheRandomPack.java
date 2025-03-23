@@ -2,6 +2,7 @@ package net.juhumc.therandompack;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.loader.impl.util.log.Log;
 import net.juhumc.therandompack.block.ModBlocks;
 import net.juhumc.therandompack.item.ModItemGroup;
 import net.juhumc.therandompack.item.ModItems;
@@ -18,5 +19,6 @@ public class TheRandomPack implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		TheRandomPack.LOGGER.info(MOD_ID + "Has been launched!");
 	}
 }
